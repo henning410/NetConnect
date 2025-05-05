@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'nas-connect' title`, () => {
+  it(`should have the 'NetConnect' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('nas-connect');
+    expect(app.title).toEqual('NetConnect');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, nas-connect');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, NetConnect');
   });
 });
