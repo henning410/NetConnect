@@ -1,0 +1,12 @@
+<div *ngIf="showBanner"
+    class="fixed bottom-4 left-4 right-4 md:left-auto md:right-4 bg-white rounded-xl p-4 md:max-w-md z-50">
+    <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+        <p class="text-sm text-gray-700">
+            This website uses cookies to ensure you get the best experience on our website.
+        </p>
+        <button (click)="acceptCookies()"
+            class="bg-blue-600 text-white text-sm font-medium px-4 py-2 rounded-md hover:bg-blue-700 transition cursor-pointer transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+            Accept
+        </button>
+    </div>
+</div>
