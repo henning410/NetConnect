@@ -4,7 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --base-href 'https://henning410.github.io/NetConnect/'",
+    "deploy": "npx angular-cli-ghpages --dir=dist/NetConnect/browser",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
